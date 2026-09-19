@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kale NFC | Yeni Nesil Dijital Kartvizit</title>
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    <!-- FontAwesome Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Plus Jakarta Sans', sans-serif;
+        }
+
+        body {
+            background-color: #090d16;
+            color: #f8fafc;
+            min-height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            padding: 20px;
+        }
+
+        .container {
+            width: 100%;
+            max-width: 420px;
+            background: #111827;
+            border-radius: 28px;
+            box-shadow: 0 25px 50px -12px rgba(0, 0, 0, 0.5);
+            padding: 36px 24px;
+            text-align: center;
+            border: 1px solid rgba(255, 255, 255, 0.08);
+        }
+
+        .logo-area {
+            font-size: 28px;
+            font-weight: 800;
+            color: #ffffff;
+            margin-bottom: 8px;
+            letter-spacing: -0.5px;
+        }
+
+        .logo-area span {
+            color: #3b82f6;
+        }
+
+        .tagline {
+            font-size: 14px;
+            color: #94a3b8;
+            margin-bottom: 28px;
+            font-weight: 500;
+            line-height: 1.5;
+        }
+
+        .features-box {
+            background: #1f2937;
+            border-radius: 16px;
+            padding: 16px;
+            margin-bottom: 24px;
+            text-align: left;
+            border: 1px solid rgba(255, 255, 255, 0.04);
+        }
+
+        .feature-item {
+            display: flex;
+            align-items: center;
+            gap: 12px;
+            font-size: 13px;
+            color: #cbd5e1;
+            margin-bottom: 12px;
+        }
+
+        .feature-item:last-child {
+            margin-bottom: 0;
+        }
+
+        .feature-item i {
+            color: #3b82f6;
+            font-size: 16px;
+            width: 20px;
+            text-align: center;
+        }
+
+        .cta-section {
+            display: flex;
+            flex-direction: column;
+            gap: 12px;
+        }
+
+        .btn {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 10px;
+            background: #1f2937;
+            color: #ffffff;
+            padding: 14px 20px;
+            border-radius: 14px;
+            text-decoration: none;
+            font-weight: 600;
+            font-size: 15px;
+            transition: all 0.2s ease;
+            border: 1px solid rgba(255, 255, 255, 0.05);
+        }
+
+        .btn i {
+            font-size: 18px;
+        }
+
+        .btn:hover {
+            transform: translateY(-2px);
+            background: #374151;
+        }
+
+        .btn-primary {
+            background: #3b82f6;
+            color: #ffffff;
+            box-shadow: 0 4px 14px rgba(59, 130, 246, 0.4);
+        }
+
+        .btn-primary:hover {
+            background: #2563eb;
+        }
+
+        .btn-whatsapp {
+            background: #22c55e;
+            color: #ffffff;
+            box-shadow: 0 4px 14px rgba(34, 197, 94, 0.4);
+        }
+
+        .btn-whatsapp:hover {
+            background: #16a34a;
+        }
+
+        .footer {
+            margin-top: 28px;
+            font-size: 12px;
+            color: #64748b;
+            font-weight: 500;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <!-- Marka Adı -->
+        <div class="logo-area">KALE <span>NFC</span></div>
+        <div class="tagline">Kağıt kartvizit devrini kapatın. Tek dokunuşla rehbere kaydedilen akıllı kartvizit çözümleri.</div>
+
+        <!-- Özellikler Kutusu -->
+        <div class="features-box">
+            <div class="feature-item">
+                <i class="fa-solid fa-bolt"></i>
+                <span>Telefonu karta dokundurmanız yeterli</span>
+            </div>
+            <div class="feature-item">
+                <i class="fa-solid fa-address-book"></i>
+                <span>Tek tuşla doğrudan telefon rehberine kayıt</span>
+            </div>
+            <div class="feature-item">
+                <i class="fa-solid fa-infinity"></i>
+                <span>Sınırsız kullanım, ömür boyu dijital aktiflik</span>
+            </div>
+        </div>
+
+        <!-- Butonlar -->
+        <div class="cta-section">
+            <!-- Kendi örnek dijital kartına yönlendirme (İleride müşterilere örnek göstermek için harika olur) -->
+            <a href="ornek/index.html" class="btn btn-primary">
+                <i class="fa-solid fa-eye"></i> Örnek Kartviziti İncele
+            </a>
+
+            <!-- Senin WhatsApp İletişim Hattın (Numaranı başına 90 koyarak yaz) -->
+            <a href="https://wa.me/905453137456?text=Merhaba,%20Kale%20NFC%20dijital%20kartvizit%20hakkında%20bilgi%20almak%2520istiyorum." target="_blank" class="btn btn-whatsapp">
+                <i class="fa-brands fa-whatsapp"></i> Sipariş / Bilgi Al
+            </a>
+        </div>
+
+        <div class="footer">
+            &copy; 2026 Kale NFC - Tüm Hakları Saklıdır.
+        </div>
+    </div>
+
+</body>
+</html>
